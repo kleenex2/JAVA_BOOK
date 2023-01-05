@@ -69,14 +69,14 @@ public class C02나머지연산자 {
 		// 조건식에 %, && 연산 기호를 사용합니다
 		// 삼항 연산자를 사용합니다
 		
-		Scanner sc = new Scanner(System.in);
-		
-		int num1 = sc.nextInt();
-		int num2 = sc.nextInt();
-		int num3 = sc.nextInt();
-		int sum = num1 + num2 + num3;
-		String result = (sum%2==0 && sum%5==0) ? "참입니다":"거짓입니다";
-		System.out.println(result);
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int num1 = sc.nextInt();
+//		int num2 = sc.nextInt();
+//		int num3 = sc.nextInt();
+//		int sum = num1 + num2 + num3;
+//		String result = (sum%2==0 && sum%5==0) ? "참입니다":"거짓입니다";
+//		System.out.println(result);
 				
 	}
 
