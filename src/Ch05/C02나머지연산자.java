@@ -42,19 +42,42 @@ public class C02나머지연산자 {
 //		}
 		
 		// 4 자리수
-		int num = 56789;
+//		int num = 56789;
+//		
+//		System.out.println("오른쪽 끝 1자리 : " + (num % 10));
+//		System.out.println("오른쪽 끝 2자리 : " + (num % 100));
+//		System.out.println("오른쪽 끝 3자리 : " + (num % 1000));
+//		System.out.println("오른쪽 끝 4자리 : " + (num % 10000));
+//		System.out.println();	
+//		System.out.println("왼쪽 끝 1자리 : " + (num / 10000));
+//		System.out.println("왼쪽 끝 2자리 : " + (num / 1000));
+//		System.out.println("왼쪽 끝 3자리 : " + (num / 100));
+//		System.out.println("왼쪽 끝 4자리 : " + (num / 10));
 		
-		System.out.println("오른쪽 끝 1자리 : " + (num % 10));
-		System.out.println("오른쪽 끝 2자리 : " + (num % 100));
-		System.out.println("오른쪽 끝 3자리 : " + (num % 1000));
-		System.out.println("오른쪽 끝 4자리 : " + (num % 10000));
-		System.out.println();	
-		System.out.println("왼쪽 끝 1자리 : " + (num / 10000));
-		System.out.println("왼쪽 끝 2자리 : " + (num / 1000));
-		System.out.println("왼쪽 끝 3자리 : " + (num / 100));
-		System.out.println("왼쪽 끝 4자리 : " + (num / 10));
-		
+		// 정수 하나를 입력받아 거꾸로 저장해보세요(반복 문법 이후 풀어보기) %,/ 연산 동시 이용할 것
+		// 예
 
+		
+//		입력: 1234
+//		저장
+//		int reverse = 4321;
+//		출력 : 4321
+		
+		// 문제
+		// 정수값 3개를 입력 받아서 세 수의 합을 구합니다. 그 합이
+		// 짝수이면서 5의 배수면 '참입니다'를 출력 아니면 '거짓입니다'를 출력하세요
+		// 조건식에 %, && 연산 기호를 사용합니다
+		// 삼항 연산자를 사용합니다
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		int num3 = sc.nextInt();
+		int sum = num1 + num2 + num3;
+		String result = (sum%2==0 && sum%5==0) ? "참입니다":"거짓입니다";
+		System.out.println(result);
+				
 	}
 
 }
